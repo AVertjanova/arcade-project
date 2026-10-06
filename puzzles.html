@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1">
+        <title>Simple Crossword</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <header class="logo">
+                <a href="index.html"><h1>Puzzle Place</h1></a>
+            </header>
+            <ul class="nav-link-list">
+                <li><a class="nav-link" href="puzzles.html">Crossword</a></li>
+                <li><a class="nav-link" href="about.html">About me</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Simple Crossword Game</h1>
+            <link href="style.css" rel="stylesheet">
+        </header>
+
+        <main>
+            <div class="crossword-page">
+            
+            <table class="table-container">
+                <tr>
+                    <td class="dark-square">dark</td>
+                    <td class="crossword-square">1
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 1, column 2, 1 down, 1 across" >
+                    </td>
+                    <td class="crossword-square">2
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 1, column 3, 2 down" >
+                    </td>
+                    <td class="crossword-square">3
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 1, column 4, 3 down" >
+                    </td>
+                    <td class="crossword-square">4
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 1, column 5, 4 down" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="dark-square">dark</td>
+                    <td class="crossword-square">5
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 2, column 2, 5 across" >
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 2, column 3">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 2, column 4">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 2, column 5">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="crossword-square">6
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 3, column 1, 6 across" >
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 3, column 2">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 3, column 3">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 3, column 4">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 3, column 5">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="crossword-square">7
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 4, column 1, 7 across" >
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 4, column 2">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 4, column 3">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 4, column 4">
+                    </td>
+                    <td class="dark-square">dark</td>
+                </tr>
+                <tr>
+                    <td class="crossword-square">8
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 5, column 1, 8 across" >
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 5, column 2">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 5, column 3">
+                    </td>
+                    <td class="crossword-square">
+                        <input class="cross-input" type="text" maxlength="1"
+                            aria-label="Row 5, column 4">
+                    </td>
+                    <td class="dark-square">dark</td>
+                </tr>
+            </table>
+
+            <div class="clues">
+                <h2>Across:</h2>
+                <details>
+                    <summary>1. Sail right by</summary>
+                    <p>pass</p>
+                </details>
+                <details>
+                    <summary>5. __ bean (also the capital city of Peru)</summary>
+                    <p>lima</p>
+                </details>
+                <details>
+                    <summary>6. "__ on a true story" (movie prase)</summary>
+                    <p>based</p>
+                </details>
+                <details>
+                    <summary>7. Los Angeles college, for short</summary>
+                    <p>UCLA</p>
+                </details>
+                <details>
+                    <summary>8. Forest animal with antlers</summary>
+                    <p>deer</p>
+                </details>
+
+                <h2>Down:</h2>
+                <details>
+                    <summary>1. Spot or location</summary>
+                    <p>place</p>
+                </details>
+                <details>
+                    <summary>2. Walkway between rows of seats</summary>
+                    <p>aisle</p>
+                </details>
+                <details>
+                    <summary>3. Spread thickly around, as peanutbutter on bread</summary>
+                    <p>smear</p>
+                </details>
+                <details>
+                    <summary>4. Not happy</summary>
+                    <p>sad</p>
+                </details>
+                <details>
+                    <summary>6. Close pal</summary>
+                    <p>bud</p>
+                </details>
+
+            </div>
+            </div>
+
+        </main>    
+    </body>
+
+<!--Crossword from minicrossword.com-->
+</html>
